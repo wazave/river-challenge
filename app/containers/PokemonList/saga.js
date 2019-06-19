@@ -13,7 +13,7 @@ export function* fetchPokemon() {
     yield put(loadingPokemon());
     const { results } = yield call(
       request,
-      'https://pokeapi.co/api/v2/pokemon/',
+      'https://pokeapi.co/api/v2/pokemon?limit=1000',
     );
     yield put(pokemonLoaded(results));
   } catch (error) {
