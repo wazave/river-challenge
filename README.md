@@ -7,7 +7,7 @@ This is a coding challenge for Rever.
 - Clone this repo using:
 
 ```bash
-git clone --depth=1 https://github.com/wazave/rever-challenge.git
+git clone --depth=1 https://github.com/wazave/river-challenge.git
 ```
 
 - Move to the appropriate directory:
